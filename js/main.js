@@ -1,6 +1,6 @@
 const fetchUsers = async () =>
   // For Production
-  await (await fetch('/.netlify/functions/getusers')).json;
+  await (await fetch('/.netlify/functions/getusers')).json();
 
 // For Local
 // await (await fetch('http://localhost:9000/getusers')).json();
